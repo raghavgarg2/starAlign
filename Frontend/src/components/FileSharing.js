@@ -22,7 +22,7 @@ const FileUpload = () => {
 
     try {
       const uploadResponse = await axios.post(
-        "https://collaborative-project-managemnet-tool.onrender.com/uploads",
+        "https://staralign-4.onrender.com/uploads",
         formData,
         {
           headers: {
@@ -35,7 +35,7 @@ const FileUpload = () => {
       const fileName = selectedFile.name;
 
       await axios.post(
-        "https://collaborative-project-managemnet-tool.onrender.com/uploads",
+        "https://staralign-4.onrender.com/uploads",
         { fileUrl, fileName },
         {
           headers: {

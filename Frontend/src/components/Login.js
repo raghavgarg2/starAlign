@@ -26,13 +26,16 @@ const Login = ({ setLoginStatus }) => {
     }
 
     try {
-      const response = await fetch("https://collaborative-project-managemnet-tool.onrender.com/auth/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://staralign-4.onrender.com/auth/login",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       const result = await response.json();
 

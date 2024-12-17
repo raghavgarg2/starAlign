@@ -6,7 +6,7 @@ const InProgress = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const url = "https://collaborative-project-managemnet-tool.onrender.com/tasks";
+  const url = "https://staralign-4.onrender.com/tasks";
 
   useEffect(() => {
     const fetchTasks = async () => {

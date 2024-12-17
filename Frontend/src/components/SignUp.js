@@ -33,7 +33,7 @@ const SignUp = ({ setLoginStatus }) => {
 
     try {
       const response = await fetch(
-        "https://collaborative-project-managemnet-tool.onrender.com/auth/signup",
+        "https://staralign-4.onrender.com/auth/signup",
         {
           method: "POST",
           headers: {

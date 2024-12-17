@@ -5,7 +5,7 @@ const TeamContainer = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const url = "https://collaborative-project-managemnet-tool.onrender.com/users";
+  const url = "https://staralign-4.onrender.com/users";
 
   useEffect(() => {
     const fetchUsers = async () => {

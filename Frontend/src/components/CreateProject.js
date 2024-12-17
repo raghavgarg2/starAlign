@@ -22,7 +22,7 @@ const CreateProject = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://collaborative-project-managemnet-tool.onrender.com/tasks", {
+      const response = await fetch("https://staralign-4.onrender.com/tasks", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

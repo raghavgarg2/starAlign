@@ -8,7 +8,7 @@ const CardContainer = () => {
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const url = "https://collaborative-project-managemnet-tool.onrender.com/tasks";
+  const url = "https://staralign-4.onrender.com/tasks";
 
   useEffect(() => {
     const fetchTasks = async () => {
